@@ -2,8 +2,7 @@ streamlit==1.30.0
 requests
 validators
 beautifulsoup4
-lxml
-html5lib
+lxml_html_clean  # <-- NEW dependency
 tldextract
 newspaper3k
 python-dateutil
