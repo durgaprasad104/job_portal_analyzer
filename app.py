@@ -1,5 +1,7 @@
 import streamlit as st
 import requests
+import nltk
+nltk.download('punkt')  # for newspaper3k to extract article text
 from newspaper import Article
 from urllib.parse import urlparse
 
